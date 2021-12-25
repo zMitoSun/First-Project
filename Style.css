@@ -1,0 +1,286 @@
+@media screen and (max-width: 500px) {
+
+@font-face {
+    font-family: 'New Tegomin', serif;
+    src: url(https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap);
+}
+
+body {
+    background: rgb(17,17,17);
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#borda {
+    max-width: 100%;
+}
+
+#logo {
+    background-image: radial-gradient(rgb(168, 0, 0),rgb(75, 0, 0));
+    display: inline-block;
+    width: 90%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    border: 6px solid;
+    border-image-source: radial-gradient(rgb(168, 0, 0),rgb(75, 0, 0));
+    border-image-slice: 1;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+#intro {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 90%;
+    margin-top: 5%;
+    text-align: justify;
+    border: 3px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, red, rgb(105, 0, 0));
+    
+}
+
+#txt {
+    color: rgb(255, 255, 255);
+    font-size: 150%;
+    font-family: 'New Tegomin', serif;
+    font-weight: 550;
+    padding: 20px;
+}
+
+.contato {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    background: rgb(110, 0, 0);
+    margin-top: 10%;
+    color: white;
+    border: 3px solid rgb(179, 179, 179);
+    border-radius: 10vw;
+    width: 55%;
+}
+
+.contato1 {
+    margin-bottom: 10%;
+}
+
+.txt {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    text-align: center;
+    padding: 5%;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+    
+}
+
+#fim {
+    width: 95%;
+    display: inline-block;
+    background: rgb(30,30,30);
+    position: relative;
+    border: 3px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(rgb(194, 0, 0), rgb(85, 0, 0));
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 0;
+}
+
+th {
+    display: inline-block;
+    position: relative;
+}
+
+.qd {
+    margin-left: 5px;
+}
+
+.img {
+    width: 30px;
+    height: 30px;
+}
+
+#img1 {
+    width: 35px;
+    height: 35px;
+}
+
+#info {
+    display: inline-block;
+    position:fixed;
+    width: 100%;
+    height: 20px;
+    margin-right: 50%;
+    bottom: 84%;
+    font-size: 80%;
+    color: rgb(226, 204, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Txt {
+    padding: 10px;
+    color: white;
+    margin-left: 5px;
+    font-size: 16px;
+    font-family:'Courier New', Courier, monospace;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+}
+
+
+}
+
+@media screen and (min-width: 500px) {
+
+@font-face {
+    font-family: 'New Tegomin', serif;
+    src: url(https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap);
+}
+
+body {
+    background: rgb(17,17,17);
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    background-image: radial-gradient(rgb(168, 0, 0),rgb(75, 0, 0));
+    display: inline-block;
+    width: 20%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    border: 7px solid;
+    border-image-source: radial-gradient(rgb(168, 0, 0),rgb(75, 0, 0));
+    border-image-slice: 1;
+    border-radius: 50%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+#intro {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 90%;
+    margin-top: -1%;
+    text-align: justify;
+    border: 5px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, red, rgb(105, 0, 0));
+    
+}
+
+#txt {
+    color: rgb(255, 255, 255);
+    font-size: 150%;
+    font-family: 'New Tegomin', serif;
+    font-weight: 550;
+    padding: 20px;
+}
+
+.contato {
+    display: inline-block;
+    position: relative;
+    left: 23.5%;
+    transform: translate(-40%);
+    background: rgb(110, 0, 0);
+    margin-top: 5%;
+    color: white;
+    border: 3px solid rgb(179, 179, 179);
+    border-radius: 10vw;
+    width: 39%;
+}
+
+.contato1 {
+    margin-bottom: 50px;
+}
+
+.contato2 {
+    margin-bottom: 50px;
+    margin-left: 5%;
+}
+
+.txt {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    text-align: center;
+    padding: 5%;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+
+#link {
+   text-decoration: none;
+   color: white;
+   font-size: 110%;
+   font-family:'Courier New', Courier, monospace;
+}
+
+#fim {
+    width: 95%;
+    display: inline-block;
+    background: rgb(30,30,30);
+    position: relative;
+    border: 3px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(rgb(194, 0, 0), rgb(85, 0, 0));
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 0;
+}
+
+th {
+    display: inline-block;
+    position: relative;
+}
+
+#info {
+    display: inline-block;
+    position: fixed;
+    width: 100%;
+    height: 20px;
+    margin: auto;
+    font-size: 100%;
+    color: rgb(226, 204, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.qd {
+    margin-left: 5px;
+}
+
+.img {
+    width: 30px;
+    height: 30px;
+}
+
+#img1 {
+    width: 35px;
+    height: 35px;
+}
+
+.Txt {
+    padding: 10px;
+    color: white;
+    margin-left: 0,5%;
+    font-size: 16px;
+    font-family:'Courier New', Courier, monospace;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+}
+
+}
